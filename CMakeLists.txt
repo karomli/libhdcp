@@ -37,7 +37,7 @@ include_directories(${LIBDRM_INCLUDE_DIRS})
 #	libdrm_util.cpp
 #	libdrm_util_priv.cpp)
 
-add_library(PROJECT_NAME SHARED 
+add_library(${PROJECT_NAME} SHARED 
 	libhdcp.cpp
 	libdrm_util.cpp
 	libdrm_util_priv.cpp)
